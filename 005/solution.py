@@ -8,6 +8,6 @@ def lcm(a, b):
 
 ans = 1
 for i in range(2, 21):
-	ans = lcm(ans, i)
+    ans = lcm(ans, i)
 
 print(ans)
