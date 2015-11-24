@@ -1,5 +1,5 @@
 import operator
-num, digit, result = '', 0, 1
+num, digit = '', 0
 while len(num) <= 1000000:
 	num += str(digit)
 	digit += 1
